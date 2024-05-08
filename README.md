@@ -1,40 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Agência de Design
 
-## Getting Started
+Este projeto é uma aplicação React que representa a página de uma agência de design. A página foi desenvolvida com o conceito de componentização, onde todas as seções são compostas por componentes independentes.
 
-First, run the development server:
+## Recursos e Funcionalidades Principais:
 
+- Componentização: Cada seção da página é um componente separado, promovendo uma estrutura modular e organizada do código.
+- Alteração de Tema: Utiliza-se o hook useState para implementar a funcionalidade que permite ao usuário alternar entre os temas claro e escuro da aplicação. Isso proporciona uma experiência personalizada ao usuário, adequando-se às suas preferências de visualização.
+- Props: As props são amplamente utilizadas para passar funções e otimizar a criação dos cards da aplicação. Essa abordagem promove uma maior reutilização de código e facilita a manutenção do projeto.
+- Responsividade: A aplicação é totalmente responsiva, garantindo uma experiência consistente em dispositivos de diferentes tamanhos e resoluções.
+
+## Execução do Projeto:
+
+- Clone o repositório
+- Instale as dependências: 
+```bash
+npm install
+# or
+yarn install
+```
+- Execute o projeto: 
 ```bash
 npm run dev
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn run dev
 ```
+- Visualização: Abra o navegador e acesse o endereço http://localhost:3000 para visualizar a aplicação em execução.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este projeto é uma ótima demonstração de boas práticas de desenvolvimento front-end, priorizando a modularidade, a usabilidade e a responsividade. Com as instruções acima, você poderá baixar o repositório, instalar as dependências e executar a aplicação localmente em sua máquina.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Projeto: 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![1](https://github.com/alands1999/ProjetoReact-Agencia-de-design/assets/150439841/0e805601-c38d-4475-80a5-bd3755b69175)
+![2](https://github.com/alands1999/ProjetoReact-Agencia-de-design/assets/150439841/36590705-6bfe-4249-9a79-600ee9ec0083)
+![3](https://github.com/alands1999/ProjetoReact-Agencia-de-design/assets/150439841/e50cd3aa-c8a3-43c4-9647-617a0627504c)
+![4](https://github.com/alands1999/ProjetoReact-Agencia-de-design/assets/150439841/9013ec48-fca7-4ca6-9f3f-6df6fd47e6bf)
+![5](https://github.com/alands1999/ProjetoReact-Agencia-de-design/assets/150439841/b50dd12f-2ae2-4d16-994d-a8b9fbc8a6a0)
+![6](https://github.com/alands1999/ProjetoReact-Agencia-de-design/assets/150439841/2955f7fe-5a0c-4e9f-a9ed-6e940ad7a2f7)
