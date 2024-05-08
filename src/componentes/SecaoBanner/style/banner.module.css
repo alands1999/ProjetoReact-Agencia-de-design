@@ -1,0 +1,120 @@
+.container {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+
+}
+.container_div {
+    width: 50%;
+    background-image: url('../../../../public/assets/banner.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container_div_dir {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fafbfc;
+    color: #022144;
+    padding-left: 10px;
+    line-height: 40px;
+    gap: 5px;
+}
+
+.container_div_dir p {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.container_div_dir h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.texto {
+    font-size: 25px;
+    font-weight: 1000;
+    letter-spacing: -1px;
+}
+
+/* DARK-MODE */
+.container_div_dark {
+    width: 50%;
+    background-image: url('../../../../public/assets/banner.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #252525;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1440px) {
+    .container_div_dir h2 {
+        font-size: 30px;
+    }
+    .container_div_dir p {
+        font-size: 15px;
+    }
+    .texto {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+   
+    .container_div_dir p {
+        font-size: 17px;
+    }
+    .container_div_dir h2 {
+        font-size: 40px;
+        width: 50%;
+        line-height: 50px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .texto {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+   
+
+    .container_div {
+        display: none;
+    }
+    .container_div_dir {
+        width: 100%;
+    }
+    .container_div_dir h2 {
+        width: 100%;
+        font-size: 50px;
+    }
+    .container_div_dir p {
+        font-size: 17px;
+    }
+    .texto {
+        font-size: 50px;
+    }
+
+        /* DARK-MODE */
+
+    .container_div_dark {
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width: 375px) {
+   
+    .container_div_dir {
+        gap: 10px;
+        line-height: 5px;
+    }
+
+   
+}

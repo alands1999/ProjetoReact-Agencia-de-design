@@ -1,0 +1,35 @@
+.topo {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.botao_dark {
+    height: 45px;
+    width: auto;
+    border: 2px solid #747272;
+    border-radius: 30px;
+}
+.logo {
+    margin: 10px 0px;
+}
+.botao {
+    background: none;
+    border: none;
+}
+
+/* DARK MODE */
+.topo_Dark {
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+
+.botao_light {
+    height: 45px;
+    width: auto;
+    border: 2px solid #fff;
+    border-radius: 30px;
+}

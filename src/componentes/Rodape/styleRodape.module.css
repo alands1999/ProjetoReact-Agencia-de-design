@@ -1,0 +1,129 @@
+.container {
+   display: flex;
+   flex-direction: column;
+    height: 60vh;
+    padding: 70px 0px 0px 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    position: relative;
+}
+.container p {
+    width: 40%;
+    text-align: center;
+    color: #8a8fa3 ;
+    font-size: 20px;
+}
+
+.logo {
+    width: 55px;
+    height: auto;
+
+}
+.box_img {
+    display: flex;
+    width: 320px;
+    justify-content: space-evenly;
+
+}
+.icon {
+    height: 45px;
+    width: 45px;
+}
+.end {
+    width: 100%;
+    padding-top: 20px;  
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    position: absolute;
+    bottom: 0;
+}
+.end span {
+    color: #feb633;
+}
+
+/* DARK-MODE */
+.container_dark {
+    display: flex;
+    flex-direction: column;
+     height: 60vh;
+     padding: 70px 0px 0px 0px;
+     width: 100%;
+     align-items: center;
+     justify-content: space-evenly;
+     background-color: #252525;
+     position: relative;
+ }
+
+ .container_dark p {
+    width: 40%;
+    text-align: center;
+    color: #8a8fa3 ;
+    font-size: 20px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+    .container p {
+        width: 50%;
+        font-size: 15px;
+    }
+
+    /* DARK-MODE */
+    .container_dark p {
+        width: 50%;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .container {
+        height: 55vh;
+        padding: 40px 0px 0px 0px;
+    
+     }
+     .container p {
+        width: 60%; 
+    }
+
+    /* DARK-MODE */
+    .container_dark {
+        height: 55vh;
+        padding: 40px 0px 0px 0px;
+    
+     }
+     .container_dark p {
+        width: 60%; 
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+   
+
+    .container p {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .box_img {
+        padding-bottom: 50px;
+    }
+
+    .end p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    /* DARK-MODE */
+    .container_dark p {
+        width: 90%;
+        font-size: 18px;
+    }
+
+}
